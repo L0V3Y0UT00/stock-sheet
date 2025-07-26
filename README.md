@@ -1,0 +1,2 @@
+# stock-sheet
+store manger
