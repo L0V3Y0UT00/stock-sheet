@@ -1,0 +1,940 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <title>Stock Movement Record Sheet</title>
+   <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 10px;
+      margin: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      border: 1px solid #444;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 3px 4px;
+      text-align: center;
+    }
+    th {
+      background-color: #eee;
+    }
+    @media print {
+      @page {
+        size: A4 landscape;
+        margin: 0.5cm;
+      }
+      body {
+        margin: 0;
+      }
+      table {
+        font-size: 8.5pt;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h3 style="text-align:center;">Stock Movement Record Sheet (by Ans Raza)</h3>
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="3">Item Code</th>
+        <th rowspan="2">Item Name</th>
+        <th rowspan="2">Sale Price</th>
+        <th colspan="20">Stock In/Out Records</th>
+        
+        <!-- th rowspan="2">User ID</th -->
+      </tr>
+      <tr>
+        <th>In/Out 1</th>
+        <th>In/Out 2</th>
+        <th>In/Out 3</th>
+        <th>In/Out 4</th>
+        <th>In/Out 5</th>
+        <th>In/Out 6</th>
+        <th>In/Out 7</th>
+        <th>In/Out 8</th>
+        <th>In/Out 9</th>
+        <th>In/Out 10</th>
+        <th>In/Out 11</th>
+        <th>In/Out 12</th>
+        <th>In/Out 13</th>
+        <th>In/Out 14</th>
+        <th>In/Out 15</th>
+        <th>In/Out 16</th>
+        <th>In/Out 17</th>
+        <th>In/Out 18</th>
+        <th>In/Out 19</th>
+        <th>In/Out 20</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Example item -->
+      <tr>
+        <td rowspan="3">.</td>
+        <td rowspan="3">.</td>
+        <td>.</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        
+        
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <tr>
+        <td>User</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <!-- Add more items below -->
+       
+      <!-- Example item -->
+      <tr>
+        <td rowspan="3">.</td>
+        <td rowspan="3">.</td>
+        <td>.</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        
+        
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <tr>
+        <td>User</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <!-- Add more items below -->
+
+      <!-- Example item -->
+      <tr>
+        <td rowspan="3">.</td>
+        <td rowspan="3">.</td>
+        <td>.</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        
+        
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <tr>
+        <td>User</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <!-- Add more items below -->
+
+      <!-- Example item -->
+      <tr>
+        <td rowspan="3">.</td>
+        <td rowspan="3">.</td>
+        <td>.</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        
+        
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <tr>
+        <td>User</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <!-- Add more items below -->
+
+      <!-- Example item -->
+      <tr>
+        <td rowspan="3">.</td>
+        <td rowspan="3">.</td>
+        <td>.</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        
+        
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <tr>
+        <td>User</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <!-- Add more items below -->
+
+      <!-- Example item -->
+      <tr>
+        <td rowspan="3">.</td>
+        <td rowspan="3">.</td>
+        <td>.</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        
+        
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <tr>
+        <td>User</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <!-- Add more items below -->
+
+      <!-- Example item -->
+      <tr>
+        <td rowspan="3">.</td>
+        <td rowspan="3">.</td>
+        <td>.</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        
+        
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <tr>
+        <td>User</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <!-- Add more items below -->
+
+      <!-- Example item -->
+      <tr>
+        <td rowspan="3">.</td>
+        <td rowspan="3">.</td>
+        <td>.</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        
+        
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <tr>
+        <td>User</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <!-- Add more items below -->
+
+      <!-- Example item -->
+      <tr>
+        <td rowspan="3">.</td>
+        <td rowspan="3">.</td>
+        <td>.</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        
+        
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <tr>
+        <td>User</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <!-- Add more items below -->
+
+      <!-- Example item -->
+      <tr>
+        <td rowspan="3">.</td>
+        <td rowspan="3">.</td>
+        <td>.</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        
+        
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <tr>
+        <td>User</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <!-- Add more items below -->
+
+      <!-- Example item -->
+      <tr>
+        <td rowspan="3">.</td>
+        <td rowspan="3">.</td>
+        <td>.</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        <td>|</td>
+        
+        
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <tr>
+        <td>User</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+      </tr>
+      <!-- Add more items below -->
+
+
+        
+       
+       
+       
+    </tbody>
+  </table>
+
+</body></html>
